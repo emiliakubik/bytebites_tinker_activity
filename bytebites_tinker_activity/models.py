@@ -106,7 +106,11 @@ class Customer:
         return self._name
     
     def get_purchase_history(self) -> List['Order']:
-        """Return the list of past orders."""
+        """Return the list of past orders.
+        
+        Returns:
+            A copy of the purchase history list
+        """
         return self._purchase_history.copy()
     
     def add_purchase(self, order: 'Order') -> None:
