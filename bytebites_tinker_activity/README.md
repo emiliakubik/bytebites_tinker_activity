@@ -1,3 +1,7 @@
+# Summary
+
+Understanding the differences between chat, ask, plan, and agent modes is essential for students working on this project, along with knowing when and how to create custom agents. Students may encounter challenges during agent setup, particularly in older VS Code versions where agent selection requires verbal invocation rather than UI options. AI assistance proved most effective when given a clear starting point or initial direction, it excels at expanding and refining ideas rather than generating them from scratch. Initially, I leveraged AI for brainstorming different approaches to the project structure before providing more specific instructions. When guiding students through this assignment, I recommend helping them envision the final product first, as this visualization exercise clarifies which methods are essential for each class and which are unnecessary. This approach encourages critical thinking about object-oriented design without directly providing solutions. By focusing on the end goal, students can better reason about the relationships between their chosen classes.
+
 # ByteBites Backend
 
 A Python-based backend system for the ByteBites food ordering app. This project implements core business logic for managing customers, food items, menus, and orders.
